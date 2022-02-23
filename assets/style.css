@@ -22,14 +22,14 @@ nav {
 
 nav li {
 	display: inline;
-	margin: 0 0 0 15px;
+	margin: 0 0 0 10px;
 }
 
 nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 20px;
 	text-decoration: none;
 }
 
@@ -288,4 +288,50 @@ td, th {
 	.lista-beneficios, imagem-beneficios {
     width: 100%
 	}
+}
+@media screen and (max-width: 480px){
+	.produtos h1 {
+		text-align: center;
+	}
+	header, footer, main {
+		width: auto;
+	}
+
+	.produtos {
+		width:auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.produtos li {
+		width:auto;
+		display: inline-block;
+		text-align: center;
+		vertical-align: top;
+		margin: 10px;
+		padding: 30px 20px;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+		border-radius: 20px;
+	}
+	@media screen and (max-width: 480px){
+	
+	form h1 {
+			text-align: center;
+		}
+	header, footer, main {
+			width: auto;
+		}
+	form {
+		width: auto;
+		
+				
+		}
+	table {
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	}
+
 }
