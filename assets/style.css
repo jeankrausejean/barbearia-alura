@@ -87,13 +87,14 @@ footer {
 	text-align: center;
 	background: linear-gradient(#888888, #000000);
 	/*background-image: url(bg.jpg);*/
-	padding: 30px 0;
+	padding: 10px 0;
+	border-top: 2px solid #131212;
 }
 
 .copyright {
 	color: #FFFFFF;
 	font-size: 15px;
-	margin: 20px 0 0;
+	margin: 10px 0 0;
 }
 
 /* Página de contato */
@@ -104,7 +105,7 @@ main {
 form {
 	margin: 40px 0;
 	width: 940px;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 
 form label, form legend {
